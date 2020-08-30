@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/counter/counter.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <!-- import the webpage's javascript file -->
+    <script src="/counter/counter.js" defer></script>
+  </head>  
+   <body>
+  <div class="titleBar">
+  <a class="title" href="/index.html">Mind Over Platter</a>
+     </div>
+   <h2 class="navBar">
+      <h3 class="topics">
+        <a href="/recipePage/recipes.html">Recipes</a>
+        <a href="/mealPlanPage/mealPlan.html">Make a Meal Plan</a>
+        <a href="/counter/counter.html">Track Calories</a>
+        <a href="/cleanEating/cleanEating.html">Clean Eating Tips</a>
+      </h3>
+    </h2>
+     <p>
+       
+     </p>
+     
+     <select id="mySelect" onchange="displayBelow();">
+
+    <option name="Select the meal"> Select the meal</option>
+
+    <option name="Eggs" value="50"> Eggs</option>
+
+    <option name="Cereal" value= "75"> Cereal </option>
+
+    <option name="Burger" value= "375" >Burger</option>
+
+    <option name="Salad" value= "275" >Salad</option>
+
+</select>
+     
+     <br> <br> <br>
+
+<div id="label1"></div>
+
+<div id="label2"></div>
+
+<div id="label3"></div>
+
+ 
+     <p>
+       
+       
+       
+     </p>
+       
+
+     
+   
+     
+     <div class = "display">
+       <p>
+          Your calorie count is: 
+         <div id = "container">
+           
+       </div>
+       </p>
+     </div>
+
+   
+</body>
+
