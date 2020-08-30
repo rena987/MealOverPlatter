@@ -1,0 +1,43 @@
+body {
+  background-color: #ED4845;
+}
+.titleBar {
+/*   background-color: #E4B363; */
+  background-color: #E0DFD5;
+  overflow: hidden;
+  font-family: 'Mountains of Christmas', cursive;
+}
+.title {
+  margin-left: 40%;
+/*   color:#6F1D1B; */
+  font-size: 60px;
+  color:#942624;
+/*   text-align: center; */
+}
+.navBar {
+  overflow: hidden;
+  display: flex;
+}
+.topics {
+  display: inline;
+  background-color: #942624;
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+  color: #EAC386;
+  text-decoration: none;
+  margin-left: 6%;
+  margin-right:6%;
+}
+
+.indianMain {
+  font-family: 'Amiri', serif;
+}
+h1 {
+  color:#DEA13F;
+}
+h2 {
+ color: #EDCC96;
+}

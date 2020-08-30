@@ -1,0 +1,211 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/mealPlanPage/mealPlan.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <!-- import the webpage's javascript file -->
+    <script src="/mealPlanPage/mealPlan.js" defer></script>
+  </head>  
+   <body>
+  <div class="titleBar">
+  <a class="title" href="/index.html">Mind Over Platter</a>
+     </div>
+   <h2 class="navBar">
+      <h3 class="topics">
+        <a href="/recipePage/recipes.html">Recipes</a>
+        <a href="/mealPlanPage/mealPlan.html">Make a Meal Plan</a>
+        <a href="/counter/counter.html">Track Calories</a>
+        <a href="/cleanEating/cleanEating.html">Clean Eating Tips</a>
+      </h3>
+    </h2>
+  
+    
+ <div class="main">
+    
+  <h1 class="column1">
+  <h2 class="dayOfWeek">Monday</h2>
+    
+  <form class="mondayFood">
+    <label for="mondayFood">Monday I plan to have:</label>
+     <input type="text" id="textone" />
+    <button  onclick="add1()">Add to Monday!</button>
+    </form>
+    <div id = "card-container1">
+    </div>
+  </h1>
+    
+     <h1 class="column2">
+  <h2 class="dayOfWeek">Tuesday</h2>
+  <form class="tuesdayFood">
+    <label for="tuesdayFood">Tuesday I plan to have:</label>
+    <input type="text">
+    <button  onclick="add2()">Add to Tuesday!</button>
+    </form>
+       <div id="card-container2"></div>
+  </h1>
+    
+     <h1 class="column3">
+  <h2 class="dayOfWeek">Wednesday</h2>
+  <form class="wednesdayFood">
+    <label for="wednesdayFood">Wednesday I plan to have:</label>
+    <input type="text">
+    <button  onclick="add1()">Add to Wednesday!</button>
+    </form>
+       <div id = "card-container3">
+       </div>
+  </h1>
+    
+     <h1 class="column4">
+  <h2 class="dayOfWeek">Thursday</h2>
+  <form class="thursdayFood">
+    <label for="thursdayFood">Thursday I plan to have:</label>
+    <input type="text">
+    <button  onclick="add1()">Add to Thursday!</button>
+    </form>
+       <div id = "card-container4">
+       </div>
+  </h1>
+    
+     <h1 class="column5">
+  <h2 class="dayOfWeek">Friday</h2>
+  <form class="fridayFood">
+    <label for="fridayFood">Friday I plan to have:</label>
+    <input type="text">
+   <button  onclick="add1()">Add to Friday</button>
+    </form>
+       <div id = "card-container5">
+       </div>
+  </h1>
+    
+     <h1 class="column6">
+  <h2 class="dayOfWeek">Saturday</h2>
+  <form class="saturdayFood">
+    <label for="saturdayFood">Saturday I plan to have:</label>
+    <input type="text">
+    <button  onclick="add1()">Add to Saturday!</button>
+    </form>
+       <div id = "card-container6">
+       </div>
+  </h1>
+    
+     <h1 class="column7">
+  <h2 class="dayOfWeek">Sunday</h2>
+  <form class="sundayFood">
+    <label for="sundayFood">Sunday I plan to have:</label>
+    <input type="text">
+    <button  onclick="add1()">Add to Sunday!</button>
+    </form>
+       <div id = "card-container7">
+       </div>
+  </h1>
+    
+     </div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <div class="row">
+
+  <div class="column" style="background-color:#aaa;">
+
+    <h2>Column 1</h2>
+
+    <p>Some text..</p>
+
+    <input type="text" id="textone1" />
+
+    <button  onclick="testVariable()">Submit</button>
+
+<br />
+
+    <span id="spanResult1">
+
+</span>
+
+  
+
+  </div>
+
+  <div class="column" style="background-color:#bbb;">
+
+    <h2>Column 2</h2>
+
+    <p>Some text..</p>
+
+    <input type="text" id="textone2" />
+
+    <button  onclick="testVariable()">Submit</button>
+
+<br />
+
+    <span id="spanResult2">
+
+</span>
+
+ 
+
+  </div>
+
+  <div class="column" style="background-color:#ccc;">
+
+    <h2>Column 3</h2>
+
+    <p>Some text..</p>
+
+    <input type="text" id="textone3" />
+
+    <button  onclick="testVariable()">Submit</button>
+
+<br />
+
+    <span id="spanResult3">
+
+</span>
+
+ 
+
+  </div>
+
+  <div class="column" style="background-color:#ddd;">
+
+    <h2>Column 4</h2>
+
+    <p>Some text..</p>
+
+    <input type="text" id="textone4" />
+
+    <button  onclick="testVariable()">Submit</button>
+
+<br />
+
+    <span id="spanResult4">
+
+</span>
+
+ 
+
+  </div>
+
+</div>
+
+ 
+     
+</body>

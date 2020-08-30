@@ -1,0 +1,47 @@
+body {
+  background-color: #ED4845;
+}
+.titleBar {
+  background-color: #E0DFD5;
+  overflow: hidden;
+  font-family: 'Mountains of Christmas', cursive;
+}
+.title {
+  margin-left: 40%;
+/*   color:#6F1D1B; */
+  font-size: 60px;
+  color:#942624;
+}
+.navBar {
+  overflow: hidden;
+  display: flex;
+  font-family: "Shadows Into Light";
+}
+.topics {
+  display: inline;
+  background-color: #942624;
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+  color: #EAC386;
+  text-decoration: none;
+  margin-left: 6%;
+  margin-right:6%;
+}
+
+
+.display{
+  background-color: #E0DFD5;
+}
+.form{
+  font-size: 20px;
+  font-family: 'Amiri', serif;
+  color: #EAC386;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  color: #942624;
+}
